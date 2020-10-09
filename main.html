@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+        <title>Quiz</title>
+    </head>
+
+    <body>
+        <div id="startpage">
+            <h1>Welcome to the quiz</h1>
+            <input type="button" class="button" value="Start" onclick="quiz()" />
+        </div>
+        <div class="questions">
+            
+            <form class="quiz" action="">
+                <span>1.This is an example multiple choice question. What sound does a dog make?</span><br>
+                <input type="radio" name="ex1" class="choice" value="1">
+                <label>Woof</label><br>
+                <input type="radio" name="ex1" class="choice" value="2">
+                <label>Mooo</label><br> 
+                <input type="radio" name="ex1" class="choice" value="3">
+                <label>Hiss</label><br>
+                <input type="radio" name="ex1" class="choice" value="4">
+                <label>Meow</label><br>
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>2. What is 8+8?</span><br>
+                <input type="radio" name="ex2"class="choice" value="1">
+                <label> 26</label><br>
+                <input type="radio" name="ex2"class="choice" value="2">
+                <label> 9</label><br>
+                <input type="radio" name="ex2"class="choice" value="3">
+                <label> 16</label><br>
+                <input type="radio" name="ex2"class="choice" value="4">
+                <label> 14</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>3. What are the primary colors?</span><br>
+                <input type="radio" name="ex3" class="choice" value="1">
+                <label>Green, blue & yellow</label><br>
+                <input type="radio" name="ex3" class="choice" value="2">
+                <label>White, black & yellow</label><br>
+                <input type="radio" name="ex3" class="choice" value="3">
+                <label>Red, Blue &  white</label><br>
+                <input type="radio" name="ex3" class="choice" value="4">
+                <label>Blue, red & yellow</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>4. What is 9x10 </span><br>
+                <input type="radio"  name="ex4" class="choice" value="1">
+                <label>9000</label><br>
+                <input type="radio" name="ex4" class="choice" value="2">
+                <label>90</label><br>
+                <input type="radio" name="ex4" class="choice" value="3">
+                <label>900</label><br>
+                <input type="radio" name="ex4" class="choice" value="4">
+                <label>0.9</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>5. what is 90/100</span><br>
+                <input type="radio" name="ex5" class="choice" value="1">
+                <label>0.09</label><br>
+                <input type="radio" name="ex5" class="choice" value="2">
+                <label>9</label><br>
+                <input type="radio" name="ex5" class="choice" value="3">
+                <label>0.9</label><br>
+                <input type="radio" name="ex5" class="choice" value="4">
+                <label>0.009</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+           
+            <form class="quiz" action="">
+                 <span>6. what is 4²?</span><br>
+                 <input type="radio" name="ex6" class="choice" value="1">
+                <label>16</label><br>
+                <input type="radio" name="ex6" class="choice" value="2">
+                <label>24</label><br>
+                <input type="radio" name="ex6" class="choice" value="3">
+                <label>8</label><br>
+                <input type="radio" name="ex6" class="choice" value="4">
+                <label>32</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>7. What's the highest mountain in the world?</span><br>
+                <input type="radio" name="ex7" class="choice" value="1">
+                <label> Ras Dashen</label><br>
+                <input type="radio" name="ex7" class="choice" value="2">
+                <label> Mount Kilimanjaro</label><br>
+                <input type="radio" name="ex7" class="choice" value="3">
+                <label> K2 </label><br>
+                <input type="radio" name="ex7" class="choice" value="4">
+                <label> Mount Everest</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>8. Do humans have 5 senses?</span><br>
+                <input type="radio" name="ex8" class="choice" value="true">
+                <label>True</label><br>
+                <input type="radio" name="ex8" class="choice" value="false">
+                <label>False</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>9. A triangle has four sides?</span><br>
+                <input type="radio"  name="ex9"class="choice" value="true">
+                <label>True</label><br>
+                <input type="radio"  name="ex9"class="choice" value="false">
+                <label>False</label><br>
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+            
+            <form class="quiz" action="">
+                <span>10. This is an example true or false question. This question is required to be answered to submit the quiz. True or False 3+3=6</span><br>
+                <input type="radio" name="ex10" class="choice" value="true">
+                <label>True</label><br>
+                <input type="radio" name="ex10" class="choice" value="false">
+                <label>False</label><br>
+        
+                <input type="button" class="submit" id="previous" value="Previous" onclick="previouspage()">
+                <input type="button" class="submit" id="next" value="Next" onclick="nextpage()">
+            </form>
+        </div>
+        <div id="endpage">
+            <h1>Quiz complete</h1>
+            
+        </div>
+
+    </body>
+
+</html>
