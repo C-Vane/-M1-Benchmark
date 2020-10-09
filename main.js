@@ -11,7 +11,7 @@ const lastpage = () => {
     for(let i=0 , j=-1; i< answer.length;i++){
 
         if(answer[i].checked){
-
+            answer[i].checked= false;
             j++;
             if(correct_answers[j] === answer[i].value){
                 test++;
