@@ -29,9 +29,9 @@ const lastpage = () => {
     last_page.appendChild(results);
     
     if (test >= 6) {
-        results.innerText="You have passed the quiz and your result are" + test+"/"+(questions.length);
+        results.innerText="You have passed the quiz \n SCORE " + test+"/"+(questions.length);
     } else {
-        results.innerText="You have not passed the quiz better luck next time";
+        results.innerText="You have not passed the quiz better luck next time \n SCORE " + test+"/"+(questions.length);
     }
     let retry = document.createElement("input");
     retry.type="button";
